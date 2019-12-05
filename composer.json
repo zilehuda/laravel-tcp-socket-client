@@ -1,0 +1,19 @@
+{
+    "name": "zilehuda/laravel-tcp-socket",
+    "description": "Laravel package to connect to tcp socket",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zilehuda",
+            "email": "zilehuda.tariq@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zilehuda\\TcpSocket\\": "src/"
+        }
+    }
+}
