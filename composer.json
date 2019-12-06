@@ -15,5 +15,15 @@
         "psr-4": {
             "Zilehuda\\TcpSocket\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zilehuda\\TcpSocket\\TcpSocketServiceProvider"
+            ],
+            "aliases": {
+                "Socket": "Zilehuda\\TcpSocket\\Facades\\Socket"
+            }
+        }
     }
 }
